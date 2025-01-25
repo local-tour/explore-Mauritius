@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Mauritius</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <h1>Explore Mauritius</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h2>Discover the Beauty of Mauritius</h2>
+                <p>
+                    Welcome to Explore Mauritius! We specialize in providing unforgettable tours to showcase the stunning beaches, rich culture, and hidden gems of this paradise island. Let us make your trip memorable with our unique services and packages.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="tour-section">
+        <h2 class="section-title">Our Tours in Mauritius</h2>
+        <p class="section-description">
+          Explore the beauty of Mauritius with our specially curated tours. Whether you seek thrilling adventures, serene beaches, or rich cultural experiences, we have it all!
+        </p>
+      
+    
+        <!-- Adventure Tour -->
+        <div class="tour-category">
+            <h3 class="category-title">Adventure Tour</h3>
+            <p class="category-description">
+              Discover the untamed beauty of Mauritius through exhilarating activities like hiking, zip-lining, and rock climbing.
+            </p>
+           
+          <div class="tour-cards">
+              <div class="tour-card hiking">
+                  <h4>Hiking at Le Morne Brabant</h4>
+                  <p>Climb the majestic Le Morne Brabant mountain and enjoy the breathtaking views.</p>
+              </div>
+              <div class="tour-card ziplining">
+                  <h4>Zip-Lining Adventure</h4>
+                  <p>Feel the adrenaline rush while flying through the lush forests on a zipline.</p>
+              </div>
+              <div class="tour-card canyoning">
+                  <h4>Canyoning at Tamarind Falls</h4>
+                  <p>Experience the thrill of canyoning as you navigate the waterfalls and rocky terrain.</p>
+              </div>
+          </div>
+      </div>
+
+      
+        <!-- Beach Tour -->
+        <div class="tour-category">
+          <h3 class="category-title">Beach Tour</h3>
+          <p class="category-description">
+            Relax on the pristine beaches of Mauritius and soak in the sun and sea.
+         
+            <div class="tour-cards">
+                <div class="tour-card flic-en-flac">
+                    <h4>Flic en Flac Beach</h4>
+                    <p>Relax on the beautiful white sandy beaches and swim in the crystal-clear waters.</p>
+                </div>
+                <div class="tour-card blue-bay">
+                    <h4>Blue Bay Marine Park</h4>
+                    <p>Snorkel in the Blue Bay Marine Park and explore the vibrant marine life.</p>
+                </div>
+                <div class="tour-card pereybere">
+                    <h4>Pereybere Beach</h4>
+                    <p>Enjoy the calm and picturesque surroundings of Pereybere Beach.</p>
+                </div>
+            </div>
+        </div>
+        
+      
+        <!-- Cultural Tour -->
+        <div class="tour-category">
+          <h3 class="category-title">Cultural Tour</h3>
+          <p class="category-description">
+            Immerse yourself in the rich history and culture of Mauritius through its landmarks and traditions.
+          </p>
+            <div class="tour-cards">
+                <div class="tour-card aapravasi-ghat">
+                    <h4>Aapravasi Ghat</h4>
+                    <p>Discover the UNESCO World Heritage Site, Aapravasi Ghat, a place with deep historical significance.</p>
+                </div>
+                <div class="tour-card grand-bassin">
+                    <h4>Grand Bassin</h4>
+                    <p>Visit the sacred Grand Bassin, also known as Ganga Talao, a place of worship for Mauritians of Hindu faith.</p>
+                </div>
+                <div class="tour-card chateau-labourdonnais">
+                    <h4>Château de Labourdonnais</h4>
+                    <p>Explore the stunning Château de Labourdonnais, a historical mansion with a beautiful garden and museum.</p>
+                </div>
+            </div>
+        </div>
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="booking" class="booking-form">
+            <div class="form-container">
+                <h2>Book Your Tour</h2>
+                <p class="description">Plan your dream trip to Mauritius today! Choose your tour package, pick a date, and let us handle the rest.</p>
+                
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Tour Date</label>
+                        <input type="date" id="date" name="date" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="package">Choose a Tour Package</label>
+                        <select id="package" name="package" required>
+                            <option value="">Select a package</option>
+                            <option value="beach">Beach Tours</option>
+                            <option value="cultural">Cultural Tours</option>
+                            <option value="adventure">Adventure Tours</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="extras">Special Requests (Optional)</label>
+                        <textarea id="extras" name="extras" placeholder="Let us know if you have any specific requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        
+            <div id="thankYouMessage" style="display: none;">
+                <h2>Thank You!</h2>
+                <p>Your booking request has been received! We'll get back to you shortly to confirm your tour details.</p>
+                <a href="#home" class="thank-you-button">Return to Home</a>
+            </div>
+        </section>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>Email: <a href="explore_mauritius@gmail.com">explore_mauritius@gmail.com</a></p>
+            <p>Phone: <a href="tel:+230 56789012">+230 56789012</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+    </div>
+</footer>
